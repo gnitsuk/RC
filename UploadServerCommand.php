@@ -1,6 +1,6 @@
 <?php 
 
-$content = $_POST["szContent"];
+$content = $_REQUEST["szContent"];
 
 $fh = fopen('Communications/ServerCommand.txt','w');
 
